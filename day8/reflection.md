@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+The most difficult concept in this course was understanding how to design systems that remain reliable as the number of users and requests increases. It is easy to think about what a website should do, but harder to consider database relationships, traffic spikes, performance, and what happens when multiple users try to perform the same action simultaneously. I overcame this by breaking the design into smaller parts, estimating the expected traffic, and connecting each requirement to a specific solution. For example, TicketHub uses database transactions and constraints to prevent two customers from purchasing the same seat.
+
+Based on feedback about presenting my engineering work more clearly, I would improve how I explain the architecture, technical decisions, and problem-solving behind my capstone. I want to communicate not only what the system does, but also why I chose a particular approach, how its components work together, and how I tested whether it works as expected. I would also strengthen the documentation and testing so that another person could understand and evaluate the project more easily.
+
+Next, I want to deepen my understanding of APIs, SQL and database design, testing, and backend development. I also want to practise building complete projects more independently, from gathering requirements and designing the system to implementing, testing, documenting, and deploying it. My goal is to become more confident in building reliable systems rather than focusing only on getting an application to work.
